@@ -985,6 +985,7 @@ int main() {
 ## 算法基础
 ### 模拟
 ### 高精度
+【【从 0 开始的 C++算法课】第 05 期 | 高精度算法 | 高精度减法 | 大数减法原理以及代码实现-哔哩哔哩】 https://b23.tv/3L6Mce9
 ![](算法上课ppt.assets/dc6d12a5cbc26400603475f7b0e6fa0d.jpeg)
 ![](算法上课ppt.assets/e167b81ceb88f76c707259a0c95b20bd.jpg)
 
@@ -1039,7 +1040,16 @@ int main() {
 ### 分治思想
 ![](算法上课ppt.assets/8c67aab8a74af957942884b9db22e5cd.jpg)
 ![](算法上课ppt.assets/6999b9fcab6587e8e3a95bdf4cc4fa71.jpg)
-### 搜索
+### 搜索 dfs/bfs
+【BFS 广度优先搜索算法 图的应用 Breadth First Search 数据结构与算法-哔哩哔哩】 https://b23.tv/OIz9Tpc
+![](算法上课ppt.assets/file-20260801165211701.jpg)
+![](算法上课ppt.assets/file-20260801165218794.jpg)
+![](算法上课ppt.assets/file-20260801165222871.jpg)
+![](算法上课ppt.assets/file-20260801165226023.jpg)
+![](算法上课ppt.assets/file-20260801165229059.jpg)
+![](算法上课ppt.assets/file-20260801165233505.jpg)
+![](算法上课ppt.assets/file-20260801165236128.jpg)
+
 ![](算法上课ppt.assets/16daa5ad319a57e5d254df5ff12e8096.jpg)
 ![](算法上课ppt.assets/bdf9cdcd344bd5dc303f8982008fa9ce.jpg)
 ![](算法上课ppt.assets/e284da5b80affa101871055eb883c55d.jpg)
@@ -1057,7 +1067,7 @@ int main() {
 ### trie 字典树
 ![](算法上课ppt.assets/eb5a2bcaf8eff0d0e77e1a17b919b11f_720.jpg)
 ### 动态规划
-动态规划的思想：
+**动态规划的思想：**
 
 > **不要一次解决整个问题，把它拆成前缀问题**
 ![](算法上课ppt.assets/0f425ef282eb1101e733b052209f13f7_720.jpg)
@@ -1222,8 +1232,8 @@ int dfs(int n){
 }
 ```
 
-- 暴力递归：\(O(2^n)\)
-- 记忆化搜索：\(O(n)\)，每个子问题只算 1 次
+- 暴力递归：$O(2^n)$
+- 记忆化搜索：$O(n)$，每个子问题只算 1 次
 
  **特点**
 
@@ -1359,3 +1369,10 @@ int dfs(int n){
 ![](算法上课ppt.assets/0fe351e3516295a9a089dc63dd9d8007.jpg)
 ![](算法上课ppt.assets/5926627ef511e7602daf0905e63bcffa%201.jpg)
 
+## 混分技巧
+1. 根据特殊性质去偷分
+2. 根据题目结果去偷分
+3. 暴力去偷分
+![](算法上课ppt.assets/file-20260729205458602.jpg)
+![](算法上课ppt.assets/file-20260729205501916.jpg)
+![](算法上课ppt.assets/file-20260729205506673.jpg)
